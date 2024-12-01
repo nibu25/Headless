@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-01T15:43:40 IST" name="Default suite" finished-at="2024-12-01T15:43:44 IST" duration-ms="3837">
+    <groups>
+    </groups>
+    <test started-at="2024-12-01T15:43:40 IST" name="Default test" finished-at="2024-12-01T15:43:44 IST" duration-ms="3837">
+      <class name="test.GoogleheadlessTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.GoogleheadlessTest@4d5650ae]" started-at="2024-12-01T15:43:40 IST" name="beforeTest" finished-at="2024-12-01T15:43:42 IST" duration-ms="2310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f()[pri:0, instance:test.GoogleheadlessTest@4d5650ae]" started-at="2024-12-01T15:43:42 IST" name="f" finished-at="2024-12-01T15:43:43 IST" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="takeScreenshotOnTestFailure(org.testng.ITestResult)[pri:0, instance:test.GoogleheadlessTest@4d5650ae]" started-at="2024-12-01T15:43:43 IST" name="takeScreenshotOnTestFailure" finished-at="2024-12-01T15:43:43 IST" duration-ms="295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f status=SUCCESS method=GoogleheadlessTest.f()[pri:0, instance:test.GoogleheadlessTest@4d5650ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnTestFailure -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.GoogleheadlessTest@4d5650ae]" started-at="2024-12-01T15:43:43 IST" name="afterTest" finished-at="2024-12-01T15:43:44 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.GoogleheadlessTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
